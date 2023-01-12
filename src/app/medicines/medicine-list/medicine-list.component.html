@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-xs-12">
+    <div class="button btn btn-success">New Medicine</div>
+  </div>
+</div>
+<hr />
+<div class="row">
+  <div class="col-xs-12">
+    <a
+      href="#"
+      class="list-group-item clearfix"
+      *ngFor="let medicine of medicines"
+    >
+      <div class="pull-left">
+        <h4 class="list-group-item-heading">{{ medicine.name }}</h4>
+        <p class="list-group-item-text">{{ medicine.description }}</p>
+      </div>
+      <span class="pull-right">
+        <img
+          src="{{ medicine.imagePath }}"
+          alt="{{ medicine.name }}"
+          class="img-responsive"
+          style="max-height: 50px"
+        />
+      </span>
+    </a>
+  </div>
+</div>
+<app-herbal></app-herbal>
