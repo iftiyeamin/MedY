@@ -8,7 +8,7 @@ import { Medicine } from '../medicine.model';
 export class MedicineListComponent implements OnInit {
   medicines: Medicine[] = [
     new Medicine('Test medicine','this is a test medicine','https://medlineplus.gov/images/Medicines_share.jpg')
-    ,new Medicine('Test medicine','this is a test medicine','https://medlineplus.gov/images/Medicines_share.jpg')
+    ,
   ];
   
   

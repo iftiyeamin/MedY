@@ -1,0 +1,16 @@
+/* h1{
+    background-color: blue;
+} */
+/* .container {
+    border: 1px solid #ddd;
+    min-height: 500px;
+} */
+.container{
+    background-color: rgb(57, 63, 67);
+/* margin: 1em 0px; */
+border-radius: 0.3rem;
+box-shadow: rgb(138, 141, 142) 0px 1px 8px;
+padding: 16px;
+border-radius: 4px;
+}
+

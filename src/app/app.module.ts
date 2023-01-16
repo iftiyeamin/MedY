@@ -10,11 +10,15 @@ import { AllopathicComponent } from './medicines/allopathic/allopathic.component
 import { HerbalComponent } from './medicines/herbal/herbal.component';
 import { BrandsComponent } from './brands/brands.component';
 
-import { DrugClassesComponent } from './drug-classes/drug-classes.component';
+
 import { BrandListComponent } from './brand-list/brand-list.component';
 import { MedicineEditComponent } from './medicine-edit/medicine-edit.component';
 import { MedicineDetailsComponent } from './medicine-details/medicine-details.component';
 import { BrandListEditComponent } from './brand-list-edit/brand-list-edit.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContentComponent } from './content/content.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -25,16 +29,20 @@ import { BrandListEditComponent } from './brand-list-edit/brand-list-edit.compon
     AllopathicComponent,
     HerbalComponent,
     BrandsComponent,
+    HomepageComponent,
     
-    DrugClassesComponent,
+    
          BrandListComponent,
          MedicineEditComponent,
          MedicineDetailsComponent,
-         BrandListEditComponent
+         BrandListEditComponent,
+         ContentComponent,
+         FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
