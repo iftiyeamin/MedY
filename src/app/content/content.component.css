@@ -6,11 +6,17 @@
     min-height: 500px;
 } */
 .container{
-    background-color: rgb(57, 63, 67);
+    background-color: rgb(250, 251, 251);
 /* margin: 1em 0px; */
 border-radius: 0.3rem;
-box-shadow: rgb(138, 141, 142) 0px 1px 8px;
+box-shadow: rgb(220, 209, 200) 0px 1px 8px;
 padding: 16px;
 border-radius: 4px;
+}
+.hero{
+    height: 100vh;
+    min-height: 400px;
+    background-size: cover;
+    background-image: url(../images/Doctor-handing-pills-to-patient_1200x675.webp);
 }
 

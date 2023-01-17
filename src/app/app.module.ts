@@ -19,6 +19,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { PhermacueticalsComponent } from './phermacueticals/phermacueticals.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { HomepageComponent } from './homepage/homepage.component';
          MedicineDetailsComponent,
          BrandListEditComponent,
          ContentComponent,
-         FooterComponent
+         FooterComponent,
+         PhermacueticalsComponent
   ],
   imports: [
     BrowserModule,
